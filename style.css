@@ -5,16 +5,20 @@
 
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 #container {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-content: flex-start;
-    width: 600px;
-    height: 2000px;
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    padding: 10px;
+}
+
+.changeColor {
+    background-color: black;
 }
 
 
@@ -24,10 +28,8 @@ body {
     border-style: solid;
 }
 
-#rowsStyle {
-    width: 30px;
-    height: 30px;
-    border-style: solid;
+.buttonRefresh {
+    margin: 20px;
 }
 
 
