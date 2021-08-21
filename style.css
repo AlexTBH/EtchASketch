@@ -5,18 +5,19 @@
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     background-color: gray;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 #container {
     display: grid;
+    justify-content: center;
     width: 700px;
     height: 700px;
     background-color: white;
+    margin: auto;
 }
 
 .changeColor {
@@ -31,10 +32,11 @@ body {
 }
 
 .buttonRefresh {
-    display: flex;
     padding: 10px;
-    margin-top: 50px;
-    margin-bottom: 75px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 
