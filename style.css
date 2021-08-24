@@ -5,39 +5,66 @@
 }
 
 body {
-    background-color: gray;
+    background-color: #f2f2;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    
 }
 
 #container {
     display: grid;
-    justify-content: center;
-    width: 700px;
-    height: 700px;
+    width: 900px;
+    height: 900px;
     background-color: white;
     margin: auto;
+    border: solid;
 }
 
 .changeColor {
     background-color: black;
 }
 
+.randomColor {
+    background-color: blueviolet;
+}
 
-#gridStyle {
+
+.gridStyle {
     width: auto;
     height: auto;
-    border-style: solid;
 }
 
-.buttonRefresh {
+/* .buttonRefresh { */
+    /* padding: 10px; */
+    /* display: grid; */
+    /* margin-top: 20px; */
+    /* margin-bottom: 20px; */
+    /* margin-left: 350px; */
+/* } */
+
+.buttons {
+    height: 70px;
+    align-items: center;
+    width: 150px;
+    text-align: center;
     padding: 10px;
-    display: block;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    font-family:Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    border: solid;
+    background-color: rgb(243, 182, 255);
 }
+
+.buttonStyle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
 
 
 
